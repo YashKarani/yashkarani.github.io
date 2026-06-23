@@ -137,7 +137,7 @@ body.loaded .pipe-card{transition-delay:.4s}
 #pipe-svg{width:100%;height:100%;display:block;overflow:visible}
 .pnode-label{font-family:var(--font-mono);font-size:12.5px;fill:var(--text);font-weight:500}
 .pnode-sub{font-family:var(--font-mono);font-size:10px;fill:var(--muted-2);letter-spacing:.02em}
-.pipe-readout{position:absolute;right:10px;bottom:8px;font-family:var(--font-mono);font-size:11px;color:var(--muted);background:rgba(7,11,20,.6);border:1px solid var(--line);border-radius:8px;padding:7px 11px;display:flex;gap:8px;align-items:center}
+.pipe-readout{position:absolute;right:22px;bottom:18px;font-family:var(--font-mono);font-size:11px;color:var(--muted);background:rgba(7,11,20,.6);border:1px solid var(--line);border-radius:8px;padding:7px 11px;display:flex;gap:8px;align-items:center}
 .pipe-readout b{color:var(--gold);font-weight:600}
 .pipe-readout .d{width:6px;height:6px;border-radius:50%;background:var(--gold);box-shadow:0 0 8px var(--gold)}
 
@@ -281,6 +281,8 @@ footer{border-top:1px solid var(--line);padding:40px 0 48px}
   .proc-steps{grid-template-columns:repeat(2,1fr)}
   .case-metrics{grid-template-columns:1fr 1fr}
   .hero p.lede{font-size:16px}
+  .pipe-wrap{height:440px}
+  .pipe-readout{position:static;margin:14px auto 0;width:max-content;max-width:100%}
   .metric{padding:24px 18px}
   .contact-meta{gap:12px}
   .foot{justify-content:center;text-align:center}
@@ -348,8 +350,8 @@ footer{border-top:1px solid var(--line);padding:40px 0 48px}
       </div>
       <div class="pipe-wrap">
         <svg id="pipe-svg" preserveAspectRatio="xMidYMid meet" aria-label="Animated outbound pipeline: sources flow through enrichment and personalization into outreach and booked meetings"></svg>
-        <div class="pipe-readout"><span class="d"></span> OUTPUT &nbsp;·&nbsp; <b>8&ndash;12</b>&nbsp;meetings / mo</div>
       </div>
+      <div class="pipe-readout"><span class="d"></span> OUTPUT &nbsp;·&nbsp; <b>8&ndash;12</b>&nbsp;meetings / mo</div>
     </div>
   </div>
 </section>
